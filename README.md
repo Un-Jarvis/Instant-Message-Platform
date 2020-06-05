@@ -1,8 +1,7 @@
 # Multi-User Instant Message Platform Project
 
 CSE 3461
-Multi-User Instant Message Platform Project
-Jarvis Huang
+
 Oct 16, 2018
 
 
@@ -16,28 +15,29 @@ Server registers each user with a unique username and password. When the server 
 
 The project contains following file:
  * IM_Server.java
- * * The server file builds a server and deals with multiple user connections.
+	The server file builds a server and deals with multiple user connections.
 
  * IM_Client.java
- * * The client file runs a client application.
+	The client file runs a client application.
 
  * ClientThread.java
- * * The class deals with a single client thread.
+	The class deals with a single client thread.
 
  * ClientDatabase.java
- * * The class represents a client database. It can read existing client information from client_database.txt when it is initialized, and can write new client information to client_database.txt once a client signs up a new account without overwriting existing client information in client_database.txt.
+	The class represents a client database. It can read existing client information from client_database.txt when it is initialized, and can write new client information to client_database.txt once a client signs up a new account without overwriting existing client information in client_database.txt.
 
  * View.java
- * * It is the interface for ClientView.java.
+	It is the interface for ClientView.java.
 
  * ClientView.java
- * * The class provides the graphical user interface for the client side.
+	The class provides the graphical user interface for the client side.
 
  * readme.txt
- * * It contains description of the project, a list of files in the project with a brief description of the purpose for each file, and instructions on how to compile and execute the program.
+	It contains description of the project, a list of files in the project with a brief description of the purpose for each file, and instructions on how to compile and execute the program.
 
  * (client_database.txt)
- * * This file is not included in the project, but can be created automatically by the server side if it does not exist. It contains all client usernames and passwords. 
+	This file is not included in the project, but can be created automatically by the server side if it does not exist. It contains all client usernames and passwords. 
+
 
 How to compile and execute the program:
  1. Open the terminal and go to the project directory.
@@ -50,6 +50,7 @@ How to compile and execute the program:
  4. Run a client application by entering: 
 	 $ java IM_Client &
     The client application GUI will show up.
+
 
 Note:
  1. The project was written and tested on Mac OS. I am not sure whether it also works on other operation systems.
